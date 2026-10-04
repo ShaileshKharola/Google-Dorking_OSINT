@@ -52,8 +52,7 @@ DORKS = [
 
     'site:s3.amazonaws.com "{d}"',
     'site:storage.googleapis.com "bucket" "{d}"',
-
-    # OSINT
+    
     'site:{d} intitle:"employees" OR intitle:"directory" OR intitle:"staff"',
     'site:{d} intitle:"our team" OR intitle:"about us" OR intitle:"leadership"',
     'site:{d} intext:"@{d}"',
